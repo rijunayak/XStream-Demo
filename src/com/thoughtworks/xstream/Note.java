@@ -1,6 +1,9 @@
 // A Note has a title and a description which it can return and set
 package com.thoughtworks.xstream;
 
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+
+@XStreamAlias("note")
 public class Note {
 
     private String title;

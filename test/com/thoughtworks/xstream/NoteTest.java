@@ -17,6 +17,6 @@ public class NoteTest {
     public void shouldSuccesfullyGetDescription() {
         Note note = new Note("Second Day", "More Orientation");
 
-        assertEquals("More Orientation Stuff", note.getDescription());
+        assertEquals("More Orientation", note.getDescription());
     }
 }
